@@ -1,7 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="container"> 
+  <div class="container-fluid"> 
      <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       <span class="sr-only">Toggle navigation</span>
@@ -10,8 +10,8 @@
       <span class="icon-bar"></span>
     </button>
     <a class="navbar-brand" href="#" >
-        <img src="./assets/logo.png" alt="logo" width="101" height="65"
-         style="margin-right: 20px;" /> 
+        <img src="./assets/as.png" alt="logo" width="110" height="60"
+         style="margin-top: -15px; " /> 
   
   </a>
   
@@ -23,9 +23,8 @@
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#">Home</a></li>
       <li><a href="#about">About-Us</a></li>
+       <li><a href="#services">Services</a> </li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="#services">Services</a> </li>
-    
     </ul>
   </div><!-- /.navbar-collapse -->
 </div>
@@ -44,29 +43,34 @@
       </ol>
     
       
-      <div class="carousel-inner">
+      <div class="carousel-inner custom">
+  
         <div class="item active">
-          <img src="assets/d1.jpg" alt="Los Angeles">
-          <div class="carousel-caption">
-                <h1>Scale your Business multifolds, Sell product to Govt.</h1>    
-              </div>             
+             <div class="carousel-caption">
+              <h4>Just do your thing,we'11</h4>
+              <h1>Make it Big.</h1>
+            </div>
+          <img src="assets/d1.jpg" alt="Los Angeles">    
         </div>
     
         <div class="item">
-          <img src="assets/d2.jpg" alt="Chicago">  
-          <div class="carousel-caption">
-                <h1>Increase turnover, with higher Margins</h1>   
-              </div>
+            <div class="carousel-caption">
+             <h4>Weaving brand stories</h4>
+             <h1>Together !</h1>
+            </div>
+          <img src="assets/d3.jpg" alt="Chicago">  
         </div>
     
         <div class="item">
-          <img src="assets/d3.jpg" alt="New York">
+            <div class="carousel-caption">
+                <h4>Let's do something</h4>
+                <h1>Creative.</h1>
+            </div>
+          <img src="assets/d4.jpg" alt="New York">
           
-          <div class="carousel-caption">
-                <h1>Sell across India</h1>   
-              </div>
         </div>
-      </div>
+      </div>    
+      
     
     
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -78,7 +82,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  </div>
+   </div>
 
   <!-----------------------------------about-us------------------------------->
 
@@ -86,8 +90,30 @@
     <h1>Who are we?</h1>
   <div class="container"> 
     <div class="row">
-      <div class="col-md-6">
-        <img src="assets/d4.jpg">
+      <div class="col-md-6 carousel2">
+       
+       <div id="carousel-id" class="carousel slide" data-ride="carousel">
+           <ol class="carousel-indicators">
+               <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+               <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+               <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+           </ol>
+           <div class="carousel-inner">
+               <div class="item">
+                   <img src="assets/d2.jpg">
+                  
+               </div>
+               <div class="item">
+                  <img src="assets/dj.jpg">
+               </div>
+               <div class="item active">
+                  <img src="assets/d5.jpg">
+               </div>
+           </div>
+           <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+           <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+       </div>
+       
       </div>
       <div class = "col-md-1">
       </div>
@@ -104,17 +130,7 @@
         <p>We understand the brand’s 
           specific necessities and provide tailored solutions that help them connect with the desired audience.</p>
       </div>
-    <!-- <div class="dj3">
-    <div class="col-md-6">
-        <img src="assets/d5.jpg">
-      </div>
-      <div class="col-md-6">
-        <p>The process of registering company on GeM platform requires extensive documentation and
-            verifications. Further the products/ services which are offered for sale to Govt. has to meet certain
-           quality benchmarks, which includes certifications like<b> ISI, AGMARK, BEE</b> etc. and the products
-           should have a standard design and dimension which is prevalent in market.</p>
-      </div>
-    </div> -->
+   
     </div>                          
   </div>
   </div>
@@ -125,11 +141,11 @@
   <div class="dj5">
    <div class="container">
  <div class="row">
-   <div class="col-md-4 col-sm-6">
+   <div class="col-md-4 col-sm-6 r1">
        <i class="fas fa-chart-line"></i>
      <h4>Digital Marketing</h4>
    </div>
-   <div class="col-md-4 col-sm-6">
+   <div class="col-md-4 col-sm-6 r2">
      <i class="fas fa-graduation-cap"></i>\
      <h4>Online Coaching Classes
        <br>
@@ -138,7 +154,7 @@
        India and Overseas -->
      </h4>
    </div>
-   <div class="col-md-4 col-sm-6">
+   <div class="col-md-4 col-sm-6 r3">
      <i class="fab fa-youtube"></i>
      <h4>Rebellion Voice
 <br>
